@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ahorcado Ética y Moral</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Iconos bonitos -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="game">
+    <h1>🎮 Ahorcado Ético</h1>
+    <p class="info">
+      Adivina la palabra relacionada con la <b>ética y la moral</b>.
+      Cada error pierde una extremidad.
+    </p>
+
+    <div class="content">
+      <!-- Ahorcado -->
+      <div class="hangman">
+        <svg viewBox="0 0 200 260">
+          <line x1="20" y1="240" x2="180" y2="240"/>
+          <line x1="60" y1="240" x2="60" y2="20"/>
+          <line x1="60" y1="20" x2="140" y2="20"/>
+          <line x1="140" y1="20" x2="140" y2="45"/>
+
+          <circle class="part" cx="140" cy="65" r="20"/>
+          <line class="part" x1="140" y1="85" x2="140" y2="140"/>
+          <line class="part" x1="140" y1="100" x2="110" y2="120"/>
+          <line class="part" x1="140" y1="100" x2="170" y2="120"/>
+          <line class="part" x1="140" y1="140" x2="115" y2="180"/>
+          <line class="part" x1="140" y1="140" x2="165" y2="180"/>
+        </svg>
+      </div>
+
+      <!-- Juego -->
+      <div>
+        <div class="word" id="word"></div>
+        <div class="keyboard" id="keyboard"></div>
+        <div class="status" id="status"></div>
+        <button class="restart" onclick="startGame()">🔄 Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Creado por <b>Ángel Emmanuel Martínez García</b> alias <b>Manoloooooo</b>
+      </p>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/share/1MftT2Gcgh/" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/emg_angel_15?igsh=aHA5NjYxcm5wZHU1" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
